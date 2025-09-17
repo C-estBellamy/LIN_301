@@ -43,3 +43,42 @@ li:first-child {
   /* Rounding */
   --radius: 12px;
 }
+ /* Pretty style i had in martin css before i had to change it */
+ body {
+  background-color: lightblue;
+}
+/* Headings */
+h1 {
+  color: purple;
+  text-align: center;
+  font-size: 2rem; 
+  margin: var(--space-1) 0 0;
+}
+
+h2 {
+  color: goldenrod;
+  margin-top: xxxx;
+}
+
+/* Paragraphs */
+p {
+  text-align: center;
+  color: oldlace;
+  font-size: 1.2rem;
+  padding: 5px;
+  background: midnightblue;
+}
+
+/* Lists */
+ul {
+  list-style-type: xxxx;
+  padding-left: xxxx;
+}
+
+/* Footer */
+footer {
+  text-align: left;
+  margin-top: xxxx;
+  font-size: 1.2rem;
+  color: purple;
+}
