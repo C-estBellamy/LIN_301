@@ -7,9 +7,8 @@
 body{ color: var(--ink); background: var(--paper); }
 
 header{
-  position: sticky; top: 0;
+  position: sticky; top: 0; center; 
   background: var(--paper);
-  justify-content: center;
   border-bottom: 30px solid rgb(230, 179, 204);
 }
 nav{
