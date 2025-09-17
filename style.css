@@ -3,8 +3,43 @@ body {
 }
 p {
   text-align: center;
-  color: red;
+  color: oldlace;
+  font-size: 1.2rem;
   padding: 5px;
   background: midnightblue;
 }
 h1 { font-size: 2rem; margin: var(--space-1) 0 0; color: var(--brand-brown); text-align: center; }
+
+a:hover {
+  color: red;   /* when mouse hovers */
+}
+
+a:visited {
+  color: purple;  /* after you’ve clicked the link */
+}
+
+input:focus {
+  border: 2px solid blue; /* when user clicks inside a text field */
+}
+
+li:first-child {
+  font-weight: bold; /* only the first <li> inside its parent */
+}
+
+:root {
+  /* Palette (named colors for now) */
+  --brand-brown: brown;
+  --brand-gold: goldenrod;
+  --paper: oldlace;      /* warm page background */
+  --ink: black;          /* default text color */
+
+  /* Layout & rhythm */
+  --page-width: 60ch;    /* ~60 characters per line for readability */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+
+  /* Rounding */
+  --radius: 12px;
+}
