@@ -7,3 +7,4 @@ p {
   padding: 5px;
   background: midnightblue;
 }
+h1 { font-size: 2rem; margin: var(--space-1) 0 0; color: var(--brand-brown); text-align: center; }
