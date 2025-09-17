@@ -1,38 +1,19 @@
-body {
-  background-color: lightblue;
-
-/* Headings */
-h1 {
-  color: purple;
-  text-align: center;
-  font-size: 2rem; 
-  margin: var(--space-1) 0 0;
+:root{
+  --ink:oldlace;                /* text color */
+  --paper: lightblue;              /* page background */
+  --brand-gold: rgb(204, 204, 255);         /* accent */
+  --space-2: 0.5rem;         /* spacing scale */
 }
+body{ color: var(--ink); background: var(--paper); }
 
-h2 {
-  color: goldenrod;
-  margin-top: xxxx;
+header{
+  position: sticky; top: 0;
+  background: var(--paper);
+  border-bottom: 1px solid rgb(230, 179, 204);
 }
-
-/* Paragraphs */
-p {
-  text-align: center;
-  color: oldlace;
-  font-size: 1.2rem;
-  padding: 5px;
-  background: midnightblue;
-}
-
-/* Lists */
-ul {
-  list-style-type: xxxx;
-  padding-left: xxxx;
-}
-
-/* Footer */
-footer {
-  text-align: left;
-  margin-top: xxxx;
-  font-size: 1.2rem;
-  color: purple;
+nav{
+  display: flex;
+  gap: var(--space-2);
+  justify-content: center;
+  padding: calc(var(--space-2) * 0.75) 0;
 }
