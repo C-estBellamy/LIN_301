@@ -1,18 +1,26 @@
+body {
+  background-color: lightblue;
+
 /* Headings */
 h1 {
-  color: xxxx;
-  text-align: xxxx;
+  color: purple;
+  text-align: center;
+  font-size: 2rem; 
+  margin: var(--space-1) 0 0;
 }
 
 h2 {
-  color: xxxx;
+  color: gold;
   margin-top: xxxx;
 }
 
 /* Paragraphs */
 p {
-  line-height: xxxx;
-  font-size: xxxx;
+  text-align: center;
+  color: oldlace;
+  font-size: 1.2rem;
+  padding: 5px;
+  background: midnightblue;
 }
 
 /* Lists */
@@ -23,8 +31,8 @@ ul {
 
 /* Footer */
 footer {
-  text-align: xxxx;
+  text-align: left;
   margin-top: xxxx;
-  font-size: xxxx;
-  color: xxxx;
+  font-size: 1.2rem;
+  color: purple;
 }
