@@ -1,0 +1,30 @@
+/* Headings */
+h1 {
+  color: xxxx;
+  text-align: xxxx;
+}
+
+h2 {
+  color: xxxx;
+  margin-top: xxxx;
+}
+
+/* Paragraphs */
+p {
+  line-height: xxxx;
+  font-size: xxxx;
+}
+
+/* Lists */
+ul {
+  list-style-type: xxxx;
+  padding-left: xxxx;
+}
+
+/* Footer */
+footer {
+  text-align: xxxx;
+  margin-top: xxxx;
+  font-size: xxxx;
+  color: xxxx;
+}
